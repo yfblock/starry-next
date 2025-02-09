@@ -2,7 +2,7 @@ ARCH ?= x86_64
 MODE ?= release
 
 BUILD_RUST ?= y
-BUILD_C ?= y
+BUILD_C ?= n
 
 build_dir := build/$(ARCH)
 
